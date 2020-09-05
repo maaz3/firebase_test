@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireBase Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- The core Firebase JS SDK is always required and must be listed first
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script> -->
+</head>
+<body>
+    <header><h2>Enter Product Information!</h2></header>
+    <center>
+        <form id ="myform">
+            <label>PRODUCT NAME</label>
+            <input type="text" name="text" id="name" >
+            <label>PRICE</label>
+            <input type="number" name="age" id="age">
+            <label>PRODUCT ID</label>
+            <input type="number" name="id" id="id">
+            <label>Image location</label>
+            <input type="text" name="url" id="url">
+            <input type="submit" value="submit"  onclick= setUserClick() id="btn">
+        </form>
+    </center>
+    <div class="get">
+        <strong id = "output">PRODUCTS</strong>
+    </div>
+    <div id="components">
+
+    </div>
+
+
+        <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+      
+        <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>      
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+    
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    height: 70vh;
+    justify-content: center;
+    width: 50vw;
+    display: flex;
+    flex-flow: column;
+}
+center{
+    height: 90vh;
+}
+header>h2{
+    display: flex;
+    flex-flow: column;
+    height: 10vh;
+    text-align: center;
+    background-color: khaki;
+    align-items: center;
+    justify-content: center;
+}
+
+.get{
+    height: 10vh;
+    z-index: 10;
+    background-color: khaki;
+    position: sticky;
+    top: 0;
+    margin: auto auto;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+}
+#btn{
+    margin: 5px 0px 5px 0px;
+}
+.productImage{
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+#components {
+    margin:auto auto;
+    width: 80vw;
+    display: flex;
+    flex: content;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.newComp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 275px;
+    border: 1px solid black;
+    background-color: #d4d4d4;
+    border-radius: 3px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+.newComp:hover{
+    transform: scale(1.03);
+    background-color: #b6a5a5;
+}
+
+.name_Product{
+    position: relative;
+    top: 50;
+    bottom: 50;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 50px;
+}
+.info_Product{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.delete_button{
+    height: 20px;
+    border-radius: 3px;
+    color:#fff;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    margin: 7px;
+    padding: 2px;
+    width: 80%;
+}
+.delete_button:hover{
+    background-color: rgb(122, 3, 3);
+}
+/* .info_Product{
+    
+} */
